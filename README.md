@@ -22,3 +22,19 @@
 - Tampilan Setelah RUN
 
 ![run_1](https://user-images.githubusercontent.com/46749350/53181534-4a06d980-362a-11e9-9555-b383f05f5517.jpg)
+
+
+**Mencari bilangan Random, yang terhenti jika ketik angka 0**
+
+*Algoritma*
+
+1. Max = 0 // variabel akhir random 0
+2. While True // Perulangan Jika Benar
+3. a = int(input("Masukan bilangan")) // untuk mengambil data dari integer dalam input yang akan dirandom
+4. if max <a // jika si max lebih kecil dari a ia akan berhenti
+5. if a ==0: // jika a == 0 dia berhenti memanggil
+6. break // jika sudah dipanggil ia akan berhenti
+7. print('bilangan paling besar : ',max)
+
+**_Codingan_**
+
