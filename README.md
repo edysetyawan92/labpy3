@@ -1,12 +1,12 @@
 **#labpy3**
 
-**Mencari bilangan Random yang bersifat N : 5**
+**Mencari Bilangan Random Yang Bersifat N : 5**
                             
 *Seperti ini algoritmanya*
 
 1. import random :: Untuk mengambil bilangan random,
 2. N = int(input("Masukan nilai N : ")) // menangkap variabel dengan huruf N, dan mendata untuk integer
-3. for x in range(n) // melooping sebuah bilang x dengan variabel yg sudah ada
+3. for i in range(n) // mengulang sebuah bilang i dengan variabel yg sudah ada
 4. b = random.uniform(0.0,0.5) // membuat bilangan random yang menghasilkan 0.0 s/d 0.5
 5. print ("Data ke : ",a,"==>",b) ,, print data ke : a = index looping b = angka random yang sudah di buat varibelnya
 6. print("Selesai") // membuat kata akhir setelah dikerjakan yang akan muncul " Hasil"
@@ -24,7 +24,7 @@
 ![run_1](https://user-images.githubusercontent.com/46749350/53181534-4a06d980-362a-11e9-9555-b383f05f5517.jpg)
 
 
-**Mencari bilangan Random, yang terhenti jika ketik angka 0**
+**Mencari Bilangan Random, yang terhenti jika ketik angka 0**
 
 *Algoritma*
 
